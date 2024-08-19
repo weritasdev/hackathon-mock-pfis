@@ -243,7 +243,8 @@ issuerApi.get('/kcc', async (req, res) => {
     req.query.did as string,
   )
 
-  res.setHeader('Access-Control-Allow-Origin', '*') // Explicitly set CORS header
+  res.set('Access-Control-Allow-Origin', '*')
+  console.log('kcc request headers:', res.getHeaders()) // Log headers
   res.send(credentials)
 })
 
