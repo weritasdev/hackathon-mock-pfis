@@ -225,10 +225,10 @@ const myPFIServer5 = createPFIServer({bearerDid: config.pfiDid[4], port: config.
 const issuerApi = express()
 const issuerPort = 3001
 
-issuerApi.use(snooper())
 
 // Allow cross-origin requests
 issuerApi.use(cors())
+issuerApi.use(snooper())
 
 issuerApi.get('/', (req, res) => {
   res.send(
@@ -242,6 +242,7 @@ issuerApi.get('/kcc', async (req, res) => {
     req.query.country as string,
     req.query.did as string,
   )
+  console.log('kcc request headers:', res.getHeaders()) // Log headers
   res.send(credentials)
 })
 
