@@ -86,14 +86,17 @@ Configuration can be set using environment variables. Defaults are set in `src/c
 - NGN to KES
 - KES to USD
 - USD to KES
+
 - KES to USDC
 - KES to USD
 - NGN to GHS
 - BTC to NGN
+
 - USD to EUR
 - EUR to USD
 - USD to GBP
 - USD to BTC
+
 - EUR to USD
 - EUR to USDC
 - USD to EUR

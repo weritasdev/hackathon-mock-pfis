@@ -14,6 +14,7 @@ import { requestCredential } from './credential-issuer.js'
 import { NextFunction } from 'express-serve-static-core'
 import { InMemoryExchangesApi } from './exchanges.js'
 import express from 'express'
+import cors from 'cors'
 
 console.log('"AquaFinance Capital" launched: ', config.pfiDid[0].uri)
 console.log('"SwiftLiquidity Solutions" launched: ', config.pfiDid[1].uri)
@@ -225,6 +226,9 @@ const issuerApi = express()
 const issuerPort = 3001
 
 issuerApi.use(snooper())
+
+// Allow cross-origin requests
+issuerApi.use(cors())
 
 issuerApi.get('/', (req, res) => {
   res.send(
