@@ -53,11 +53,13 @@ export const offeringDataGHSToUSDC: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -123,11 +125,13 @@ export const offeringDataNGNToKES: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -199,11 +203,13 @@ export const offeringDataKESToUSD: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -290,11 +296,13 @@ export const offeringDataUSDToKES: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -366,11 +374,13 @@ export const offeringDataKESToUSD2: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -436,11 +446,13 @@ export const offeringDataKESToUSDC: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -506,11 +518,13 @@ export const offeringDataNGNToGHS: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -591,11 +605,13 @@ export const offeringDataBTCToNGN: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -688,11 +704,13 @@ export const offeringDataUSDToEUR: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -785,11 +803,13 @@ export const offeringDataEURToUSD: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -882,11 +902,13 @@ export const offeringDataUSDToGBP: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -973,11 +995,13 @@ export const offeringDataUSDToBTC: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -1069,11 +1093,13 @@ export const offeringDataEURToUSD2: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -1160,11 +1186,13 @@ export const offeringDataEURToUSDC: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -1257,11 +1285,13 @@ export const offeringDataUSDToEUR2: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -1354,11 +1384,13 @@ export const offeringDataEURToGBP: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -1450,11 +1482,13 @@ export const offeringDataUSDToAUD: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -1547,11 +1581,13 @@ export const offeringDataUSDToGBP2: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -1638,11 +1674,13 @@ export const offeringDataUSDToKES2: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],
@@ -1735,11 +1773,13 @@ export const offeringDataUSDToMXN: OfferingData = {
         constraints: {
           fields: [
             {
-              path: ['$.type[*]'],
+              path: [
+                '$.credentialSchema[*].id'
+              ],
               filter: {
                 type: 'string',
-                const: 'KnownCustomerCredential',
-              },
+                const: 'https://vc.schemas.host/kcc.schema.json'
+              }
             },
             {
               path: ['$.issuer'],

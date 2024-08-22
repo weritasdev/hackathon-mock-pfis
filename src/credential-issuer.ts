@@ -111,7 +111,7 @@ export async function requestCredential(
       countryOfResidence: country
     },
     credentialSchema: {
-      id: 'https://schema.org/PFI',
+      id: 'https://vc.schemas.host/kcc.schema.json',
       type: 'JsonSchema'
     },
   })
