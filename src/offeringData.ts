@@ -204,7 +204,7 @@ export const offeringDataKESToUSD: OfferingData = {
           fields: [
             {
               path: [
-                '$.credentialSchema[*].id'
+                '$.vc.credentialSchema[*].id'
               ],
               filter: {
                 type: 'string',
@@ -212,7 +212,7 @@ export const offeringDataKESToUSD: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
