@@ -62,7 +62,7 @@ export const offeringDataGHSToUSDC: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -134,7 +134,7 @@ export const offeringDataNGNToKES: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -305,7 +305,7 @@ export const offeringDataUSDToKES: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -383,7 +383,7 @@ export const offeringDataKESToUSD2: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -455,7 +455,7 @@ export const offeringDataKESToUSDC: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -527,7 +527,7 @@ export const offeringDataNGNToGHS: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -614,7 +614,7 @@ export const offeringDataBTCToNGN: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -713,7 +713,7 @@ export const offeringDataUSDToEUR: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -812,7 +812,7 @@ export const offeringDataEURToUSD: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -911,7 +911,7 @@ export const offeringDataUSDToGBP: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1004,7 +1004,7 @@ export const offeringDataUSDToBTC: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1102,7 +1102,7 @@ export const offeringDataEURToUSD2: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1195,7 +1195,7 @@ export const offeringDataEURToUSDC: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1294,7 +1294,7 @@ export const offeringDataUSDToEUR2: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1393,7 +1393,7 @@ export const offeringDataEURToGBP: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1491,7 +1491,7 @@ export const offeringDataUSDToAUD: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1590,7 +1590,7 @@ export const offeringDataUSDToGBP2: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1683,7 +1683,7 @@ export const offeringDataUSDToKES2: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1782,7 +1782,7 @@ export const offeringDataUSDToMXN: OfferingData = {
               }
             },
             {
-              path: ['$.issuer'],
+              path: ['$.vc.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
