@@ -7,3 +7,7 @@ server-did.txt
 signed-credential.txt
 issuer-did.txt
 alice-did.txt
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

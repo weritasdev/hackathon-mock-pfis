@@ -54,7 +54,8 @@ export const offeringDataGHSToUSDC: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -62,7 +63,7 @@ export const offeringDataGHSToUSDC: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -126,7 +127,8 @@ export const offeringDataNGNToKES: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -134,7 +136,7 @@ export const offeringDataNGNToKES: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -204,7 +206,8 @@ export const offeringDataKESToUSD: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -212,7 +215,7 @@ export const offeringDataKESToUSD: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -297,7 +300,8 @@ export const offeringDataUSDToKES: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -305,7 +309,7 @@ export const offeringDataUSDToKES: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -375,7 +379,8 @@ export const offeringDataKESToUSD2: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -383,7 +388,7 @@ export const offeringDataKESToUSD2: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -447,7 +452,8 @@ export const offeringDataKESToUSDC: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -455,7 +461,7 @@ export const offeringDataKESToUSDC: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -519,7 +525,8 @@ export const offeringDataNGNToGHS: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -527,7 +534,7 @@ export const offeringDataNGNToGHS: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -606,7 +613,8 @@ export const offeringDataBTCToNGN: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -614,7 +622,7 @@ export const offeringDataBTCToNGN: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -705,7 +713,8 @@ export const offeringDataUSDToEUR: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -713,7 +722,7 @@ export const offeringDataUSDToEUR: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -804,7 +813,8 @@ export const offeringDataEURToUSD: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -812,7 +822,7 @@ export const offeringDataEURToUSD: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -903,7 +913,8 @@ export const offeringDataUSDToGBP: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -911,7 +922,7 @@ export const offeringDataUSDToGBP: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -996,7 +1007,8 @@ export const offeringDataUSDToBTC: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -1004,7 +1016,7 @@ export const offeringDataUSDToBTC: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1094,7 +1106,8 @@ export const offeringDataEURToUSD2: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -1102,7 +1115,7 @@ export const offeringDataEURToUSD2: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1187,7 +1200,8 @@ export const offeringDataEURToUSDC: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -1195,7 +1209,7 @@ export const offeringDataEURToUSDC: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1286,7 +1300,8 @@ export const offeringDataUSDToEUR2: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -1294,7 +1309,7 @@ export const offeringDataUSDToEUR2: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1385,7 +1400,8 @@ export const offeringDataEURToGBP: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -1393,7 +1409,7 @@ export const offeringDataEURToGBP: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1483,7 +1499,8 @@ export const offeringDataUSDToAUD: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -1491,7 +1508,7 @@ export const offeringDataUSDToAUD: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1582,7 +1599,8 @@ export const offeringDataUSDToGBP2: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -1590,7 +1608,7 @@ export const offeringDataUSDToGBP2: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1675,7 +1693,8 @@ export const offeringDataUSDToKES2: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -1683,7 +1702,7 @@ export const offeringDataUSDToKES2: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
@@ -1774,7 +1793,8 @@ export const offeringDataUSDToMXN: OfferingData = {
           fields: [
             {
               path: [
-                '$.vc.credentialSchema.id'
+                '$.vc.credentialSchema.id',
+                '$.credentialSchema.id'
               ],
               filter: {
                 type: 'string',
@@ -1782,7 +1802,7 @@ export const offeringDataUSDToMXN: OfferingData = {
               }
             },
             {
-              path: ['$.vc.issuer'],
+              path: ['$.vc.issuer', '$.issuer'],
               filter: {
                 type: 'string',
                 const: issuer,
